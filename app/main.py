@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
-from app.model.retriever import ImageRetriever
+from app.model.image_retriever import ImageRetriever
 
 app = FastAPI(title="Image Search API", description="Retrieve similar images using a natural language query.")
 
